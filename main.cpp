@@ -100,4 +100,3 @@ int main() {
 		cout << ascii[interpretate(resero[i]) - 1];
 	}
 }
-//1010011000100010100101001001 Зы!

@@ -38,7 +38,7 @@ int main() {
 	a.erase(a.begin());
 	int d = 0;
 	int ff = 0;
-	while(a.size()) {
+	while (a.size()) {
 		if (a[ff] == 0) {
 			k++;
 		}
@@ -85,7 +85,7 @@ int main() {
 	}
 	vector <int> resero;
 	int kk = 0;
-	while (res.size()) {
+	while (res.size() >= 8) {
 		resero.push_back(0);
 		for (int i = 0; i < 8; ++i) {
 			if (res[i]) {
